@@ -36,7 +36,7 @@ const Hero = () => {
       <img
         src={bg_hero}
         alt=""
-        className="h-full absolute top-0 -right-40 opacity-50"
+        className="md:h-full w-full md:w-auto absolute bottom-20 md:top-0 -right-40 opacity-50"
       />
     </section>
   );

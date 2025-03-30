@@ -37,7 +37,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
         <Menu size={30} className="text-white" />
       </button>
 
