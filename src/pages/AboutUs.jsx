@@ -6,7 +6,9 @@ import VisionMission from "./VisionMission";
 const AboutUs = () => (
   <section id="features" className={`${layout.section} relative`}>
     <div className={`${layout.sectionInfo} w-full relative `}>
-      <h2 className={`${styles.heading2}  text-gradient`}>WHAT WE DO</h2>
+      <h2 className={`${styles.heading2}  text-gradient font-bold`}>
+        WHAT WE DO
+      </h2>
       <p className={`${styles.paragraph} max-w-3xl mt-5`}>
         At GO8 Technology Inc., we specialize in providing cutting-edge IT
         solutions designed to meet the unique needs of small and medium-sized

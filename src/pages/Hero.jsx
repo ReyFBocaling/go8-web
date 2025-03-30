@@ -4,14 +4,17 @@ import styles from "../styles/style";
 
 const Hero = () => {
   return (
-    <section id="home" className="flex md:flex-row flex-col py-12 relative">
+    <section
+      id="home"
+      className="flex md:flex-row flex-col py-7 md:py-12 relative"
+    >
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
           src="/imgs/hero/hero4.png"
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]  "
+          className="w-1/2 md:w-[100%] md:h-[100%]  z-[5] absolute left-0 "
         />
 
         {/* gradient start */}
@@ -23,7 +26,7 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <h1 className="text-3xl font-poppins font-semibold  text-white">
+        <h1 className="text-2xl md:text-3xl font-poppins font-semibold  text-white">
           EMPOWERING INNOVATIONS, TRANSFORMING POSSIBILITIES
         </h1>
 
