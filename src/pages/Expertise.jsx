@@ -36,7 +36,6 @@ const Expertise = () => {
 
       <div className="relative group max-w-[1500px] md:h-[566px] mx-auto py-10">
         <div className="w-full h-full relative overflow-hidden">
-          {/* Slides container */}
           <div
             className="flex transition-transform duration-500 ease-out"
             style={{
@@ -57,7 +56,6 @@ const Expertise = () => {
             ))}
           </div>
 
-          {/* Left Arrow */}
           <div
             className="absolute top-1/2 left-5 text-2xl rounded-full p-2 bg-black/20 cursor-pointer z-10 transform -translate-y-1/2"
             onClick={prevSlide}
@@ -65,7 +63,6 @@ const Expertise = () => {
             <ChevronLeft size={30} />
           </div>
 
-          {/* Right Arrow */}
           <div
             className="absolute top-1/2 right-5 text-2xl rounded-full p-2 bg-black/20 cursor-pointer z-10 transform -translate-y-1/2"
             onClick={nextSlide}
@@ -73,7 +70,6 @@ const Expertise = () => {
             <ChevronRight size={30} />
           </div>
 
-          {/* Slide Dots */}
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
             {slides.map((_, index) => (
               <div

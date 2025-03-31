@@ -1,10 +1,9 @@
 import styles, { layout } from "../styles/style";
 import { about_us_cube, logo } from "../assets";
-import Stats from "./Stats";
 import VisionMission from "./VisionMission";
 
 const AboutUs = () => (
-  <section id="features" className={`${layout.section} relative`}>
+  <section id="features" className={`${layout.section} relative mt-20`}>
     <div className={`${layout.sectionInfo} w-full relative `}>
       <h2 className={`text-3xl md:text-5xl  text-gradient font-bold`}>
         WHAT WE DO

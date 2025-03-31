@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { ExternalLink, Code2, Blocks, Gem, ArrowUpRight } from "lucide-react";
-import { arcus_img, aurum_img } from "../assets";
 import { projects } from "../constants";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";

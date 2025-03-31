@@ -23,7 +23,7 @@ const Navbar = () => {
       } fixed w-full top-0 left-0 z-50 shadow-md2 navbar flex items-center `}
     >
       <div
-        className={`${styles.boxWidth} mx-auto h-16 md:h-20 flex items-center justify-between px-3 md:px-0`}
+        className={`${styles.boxWidth} mx-auto h-20 flex items-center justify-between px-3 md:px-0`}
       >
         <div className="logo font-bold  flex items-center -ml-3 ">
           <motion.img
