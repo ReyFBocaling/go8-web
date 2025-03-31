@@ -1,14 +1,5 @@
 import styles from "./styles/style";
-import {
-  Billing,
-  AboutUs,
-  Services,
-  Clients,
-  CTA,
-  Stats,
-  Testimonials,
-  Hero,
-} from "./pages";
+import { AboutUs, Services, CTA, Stats, Hero } from "./pages";
 import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
 import Projects from "./pages/Projects";

@@ -30,7 +30,9 @@ const Expertise = () => {
 
   return (
     <div className="w-full md:h-full  pt-5 overflow-hidden">
-      <h1 className="text-5xl font-bold text-gradient">Industry Expertise</h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-gradient">
+        Industry Expertise
+      </h1>
 
       <div className="relative group max-w-[1500px] md:h-[566px] mx-auto py-10">
         <div className="w-full h-full relative overflow-hidden">

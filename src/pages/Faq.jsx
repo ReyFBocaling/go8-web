@@ -7,7 +7,7 @@ function FAQ() {
 
   return (
     <div className="w-full md:w-1/2">
-      <h1 className="text-4xl font-bold text-gradient mb-3">
+      <h1 className="text-3xl md:text-4xl font-bold text-gradient mb-3">
         Frequently Asked Questions
       </h1>
 

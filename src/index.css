@@ -16,6 +16,7 @@
 
 * {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 .text-gradient {
@@ -137,4 +138,10 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.blur_effect {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-bottom: 0.2px #131212 solid;
 }

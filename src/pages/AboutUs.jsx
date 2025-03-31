@@ -6,7 +6,7 @@ import VisionMission from "./VisionMission";
 const AboutUs = () => (
   <section id="features" className={`${layout.section} relative`}>
     <div className={`${layout.sectionInfo} w-full relative `}>
-      <h2 className={`${styles.heading2}  text-gradient font-bold`}>
+      <h2 className={`text-3xl md:text-5xl  text-gradient font-bold`}>
         WHAT WE DO
       </h2>
       <p className={`${styles.paragraph} max-w-3xl mt-5`}>
@@ -27,7 +27,7 @@ const AboutUs = () => (
       />
     </div>
 
-    <div className={` w-2/5 absolute -top-20 -right-10`}>
+    <div className={`w-1/2 md:w-2/5 absolute -top-20 -right-7 md:-right-10`}>
       <img src={about_us_cube} alt="" />
     </div>
   </section>

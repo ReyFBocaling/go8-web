@@ -6,7 +6,9 @@ function Careers() {
   return (
     <div className="w-full md:w-1/2">
       {/* Header */}
-      <h1 className="text-4xl font-bold text-gradient mb-3">Careers</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gradient mb-3">
+        Careers
+      </h1>
 
       {/* Open Positions */}
       <div className=" pb-16">

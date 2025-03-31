@@ -13,6 +13,7 @@
     "lucide-react": "^0.485.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "swiper": "^11.2.6",
     "TagCloud": "^2.5.0"
   },
   "devDependencies": {
